@@ -15,7 +15,7 @@ def simulate(width, mutation):
         "-g2012", "-Wall", "-s", "compare_patterns",
         f"-Pcompare_patterns.BAR_WIDTH={width}",
         f"-Pcompare_patterns.MUTATION={mutation}", "-o", str(executable),
-        "rtl/pattern_old.v", "rtl/pattern_new.v", "tb/compare_patterns.v",
+        "rtl/pattern_old.v", "rtl/pattern_new.v", "tb/pattern_mutant.v", "tb/compare_patterns.v",
     ])
     subprocess.run(command, cwd=ROOT, check=True, timeout=30)
     return subprocess.run(
