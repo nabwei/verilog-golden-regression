@@ -14,14 +14,14 @@ module compare_patterns;
     pattern_old #(.BAR_WIDTH(BAR_WIDTH)) golden (
         pixel_clock, reset, enable, old_pixel
     );
-    pattern_new #(.BAR_WIDTH(BAR_WIDTH), .MUTATION(MUTATION)) candidate (
+    pattern_mutant #(.BAR_WIDTH(BAR_WIDTH), .MUTATION(MUTATION)) candidate (
         pixel_clock, reset, enable, new_pixel
     );
     always #5 pixel_clock = ~pixel_clock;
 
     initial begin
         for (cycle = 0; cycle < 180; cycle = cycle + 1) begin
-            reset = (cycle < 2 || cycle == 53 || cycle == 109);
+            reset = (cycle < 2 || cycle == 53 || cycle == 82 || cycle == 109);
             enable = (cycle % 7 != 3 && cycle % 7 != 4);
             if (reset) begin
                 expected_position = 0;
