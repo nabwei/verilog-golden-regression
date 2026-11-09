@@ -1,0 +1,11 @@
+{
+  "repository": "https://github.com/nabwei/engineering-portfolio",
+  "revision": "b480109605f8cdbda85160b77ed1ec9c6229554d",
+  "license": "MIT",
+  "files": {
+    "02_ROBOTICS_NAVIGATION/robot_core/include/robot/core.hpp": "9955f10b21c65ba8317f6ba606063dac229b9c3e0598b8fbf5707dda9d62e784",
+    "02_ROBOTICS_NAVIGATION/robot_core/src/kinematics.cpp": "0dddf55d0d43483aad5293bb3b19ff19872d11a5a6a9201a9cad4a6ef3a55017",
+    "02_ROBOTICS_NAVIGATION/robot_core/src/world.cpp": "0abb07165045d6fb34a7f0ec749b8bbb1fc807cd08a84bb898ac5d8c54e2a3c5",
+    "02_ROBOTICS_NAVIGATION/robot_core/src/lidar.cpp": "524686ef9627b64c7c15381676f3c1587507d87a028dc0fba8c718a638dd745c"
+  }
+}

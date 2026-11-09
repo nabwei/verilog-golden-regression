@@ -1,0 +1,11 @@
+{
+  "method": "Superseded local count ledger. Use the authoritative matrix for current milestone percentages; counts are not duplicated here.",
+  "authority": "../00_MASTER_CONTROL/FULL_ACCEPTANCE_MATRIX.md",
+  "classifications": {
+    "A": "EXTENSION",
+    "B": "EXTENSION",
+    "C": "EXTENSION"
+  },
+  "evidence": "Latest executed source-hash receipt is linked from the authoritative acceptance matrix; historical runs remain under ../08_TEST_RESULTS/fpga/.",
+  "scope": "Software simulation and structural synthesis; hardware and public CI unverified."
+}

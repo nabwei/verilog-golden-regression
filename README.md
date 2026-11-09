@@ -1,3 +1,5 @@
+> **New AI-assisted extension:** [01_FPGA_EMBEDDED](01_FPGA_EMBEDDED/) — reproducible software/simulation modules. [Portfolio overview](https://github.com/nabwei/engineering-portfolio), [AI disclosure](docs/AI_DEVELOPMENT.md). Existing project below is preserved.
+
 # Verilog Golden Regression
 
 [![CI](https://github.com/nabwei/verilog-golden-regression/actions/workflows/ci.yml/badge.svg)](https://github.com/nabwei/verilog-golden-regression/actions/workflows/ci.yml)

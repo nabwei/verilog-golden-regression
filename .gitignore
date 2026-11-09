@@ -1,3 +1,16 @@
 build/
 __pycache__/
 *.vcd
+
+.venv*/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+**/build*/
+**/datasets/
+**/install/
+**/log/
+08_TEST_RESULTS/
+
+# Pinned public dependency; fetched and verified, never duplicated in this repo.
+02_ROBOTICS_NAVIGATION/

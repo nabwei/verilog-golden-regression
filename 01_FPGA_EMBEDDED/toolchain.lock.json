@@ -1,0 +1,14 @@
+{
+  "platform": "Ubuntu 24.04.2 LTS x86_64 under WSL2",
+  "python_runtime": "3.12.3",
+  "cxx_runtime": "g++ 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04.1)",
+  "ghdl_runtime": "GHDL 4.1.0 mcode",
+  "dpkg_packages": {
+    "ghdl": "4.1.0+dfsg-0ubuntu2.1",
+    "ghdl-mcode": "4.1.0+dfsg-0ubuntu2.1",
+    "g++": "4:13.2.0-7ubuntu1",
+    "python3": "3.12.3-0ubuntu2.1"
+  },
+  "python_dependencies": [],
+  "note": "Observed toolchain lock for reproduction. Ubuntu repository availability of exact historical packages is not guaranteed. CI pins Ubuntu 24.04, not immutable package artifacts. No container build has been run."
+}
