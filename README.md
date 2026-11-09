@@ -1,4 +1,4 @@
-> **New AI-assisted extension:** [01_FPGA_EMBEDDED](01_FPGA_EMBEDDED/) — reproducible software/simulation modules. [Portfolio overview](https://github.com/nabwei/engineering-portfolio), [AI disclosure](docs/AI_DEVELOPMENT.md). Existing project below is preserved.
+**Additional modules:** [01_FPGA_EMBEDDED](01_FPGA_EMBEDDED/). [Portfolio](https://github.com/nabwei/engineering-portfolio) · [Development notes](docs/AI_DEVELOPMENT.md).
 
 # Verilog Golden Regression
 
@@ -8,8 +8,6 @@ Kleines, unabhängig geschriebenes Simulationsbeispiel: Eine ältere und eine
 refaktorierte Beschreibung erzeugen dieselben drei Grauwertbalken.
 „Old“ bezeichnet hier eine eigens für dieses Beispiel geschriebene Referenz,
 keine historische FPGA-Implementierung.
-
-Mit KI-Unterstützung entwickelt, einschließlich Code, Tests und Dokumentation.
 
 ## Funktionsweise
 
@@ -76,4 +74,4 @@ with Icarus Verilog. Deterministic reset and enable stimuli cover three bar widt
 Three intentional mutations must fail with the first mismatch, rather than merely
 failing to compile. Mutations stay in a test-only wrapper; the RTL counter is sized
 for the configured width. Yosys checks synthesizability, not hardware timing.
-Developed with AI assistance; no hardware or formal-equivalence claims.
+No hardware validation or formal-equivalence claims.
